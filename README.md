@@ -1,7 +1,7 @@
 # Matrix Voice Transcript
 
-> **Transcription languages / Языки распознавания / Sprachen / Langues:**
-> 🇬🇧 English · 🇷🇺 Русский · 🇩🇪 Deutsch · 🇫🇷 Français · 🇪🇸 Español · 🇵🇹 Português · 🇵🇱 Polski · 🇨🇿 Czech · 🇸🇰 Slovak · 🇧🇬 Bulgarian · 🇺🇦 Ukrainian · 🇳🇱 Dutch · 🇮🇹 Italian · 🇷🇴 Romanian · 🇸🇪 Swedish · 🇩🇰 Danish · 🇫🇮 Finnish · 🇳🇴 Norwegian · 🇬🇷 Greek · 🇭🇺 Hungarian · 🇪🇪 Estonian · 🇱🇻 Latvian · 🇱🇹 Lithuanian · 🇸🇮 Slovenian · 🇭🇷 Croatian · 🇲🇹 Maltese
+## **Transcription languages / Языки распознавания / Sprachen / Langues:**
+🇬🇧 English · 🇷🇺 Русский · 🇩🇪 Deutsch · 🇫🇷 Français · 🇪🇸 Español · 🇵🇹 Português · 🇵🇱 Polski · 🇨🇿 Czech · 🇸🇰 Slovak · 🇧🇬 Bulgarian · 🇺🇦 Ukrainian · 🇳🇱 Dutch · 🇮🇹 Italian · 🇷🇴 Romanian · 🇸🇪 Swedish · 🇩🇰 Danish · 🇫🇮 Finnish · 🇳🇴 Norwegian · 🇬🇷 Greek · 🇭🇺 Hungarian · 🇪🇪 Estonian · 🇱🇻 Latvian · 🇱🇹 Lithuanian · 🇸🇮 Slovenian · 🇭🇷 Croatian · 🇲🇹 Maltese
 
 Matrix bot that transcribes voice messages and audio files using [NVIDIA NeMo Parakeet TDT](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) running locally on CPU. Supports E2EE rooms. No audio leaves the server.
 
