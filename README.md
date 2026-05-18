@@ -5,6 +5,9 @@
 
 Matrix bot that transcribes voice messages and audio files using [NVIDIA NeMo Parakeet TDT](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) running locally on CPU. Supports E2EE rooms. No audio leaves the server.
 
+<img width="358" height="262" alt="{039EC30F-A36E-4266-B354-8F44477F1371}" src="https://github.com/user-attachments/assets/edd5dfc7-c1b9-47ca-b922-b1855c1d5820" />
+
+
 ## Requirements
 
 - Matrix bot account with an access token.
