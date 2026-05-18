@@ -15,7 +15,7 @@ class Settings(BaseSettings):
 
     locale: str = "en"
 
-    asr_model_name: str = "nvidia/parakeet-tdt-0.6b-v2"
+    asr_model_name: str = "nvidia/parakeet-tdt-0.6b-v3"
 
     max_audio_bytes: int = 25 * 1024 * 1024
 

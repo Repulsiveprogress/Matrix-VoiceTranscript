@@ -1,6 +1,9 @@
 # Matrix Voice Transcript
 
-Matrix bot that transcribes voice messages and audio files using [NVIDIA NeMo Parakeet TDT](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) running locally on CPU. Supports E2EE rooms. No audio leaves the server.
+> **Transcription languages / Языки распознавания / Sprachen / Langues:**
+> English, Русский, Deutsch, Français, Español, Português, Polski, Czech, Slovak, Bulgarian, Ukrainian, Dutch, Italian, Romanian, Swedish, Danish, Finnish, Norwegian, Greek, Hungarian, Estonian, Latvian, Lithuanian, Slovenian, Croatian, Maltese
+
+Matrix bot that transcribes voice messages and audio files using [NVIDIA NeMo Parakeet TDT](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) running locally on CPU. Supports E2EE rooms. No audio leaves the server.
 
 ## Requirements
 
@@ -23,7 +26,7 @@ Matrix bot that transcribes voice messages and audio files using [NVIDIA NeMo Pa
 | `MATRIX_ACCESS_TOKEN` | Bot access token |
 | `MATRIX_PASSWORD` | Optional. Prunes stale E2EE devices on startup; required for reliable decryption in encrypted rooms. |
 | `LOCALE` | Message language: `en` (default) or `ru` |
-| `ASR_MODEL_NAME` | NeMo model (default: `nvidia/parakeet-tdt-0.6b-v2`) |
+| `ASR_MODEL_NAME` | NeMo model (default: `nvidia/parakeet-tdt-0.6b-v3`) |
 | `MAX_AUDIO_BYTES` | Max file size in bytes (default: `26214400` = 25 MB) |
 | `STORE_PATH` | Olm key store path inside the container (default: `/data/store`) |
 
